@@ -24,6 +24,7 @@ test = [
     "pytest-asyncio>=1.0.0",
 ]
 
+# Tree-sitter language support (optional)
 [project.optional-dependencies]
 treesitter-full = [
     "tree-sitter-python>=0.23.6",
